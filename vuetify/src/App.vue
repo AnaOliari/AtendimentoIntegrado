@@ -3,31 +3,31 @@
     <v-main style="background: #e3f2fd">
       <v-container class="fill-height d-flex align-center justify-center">
         <div style="width: auto; height: auto" class="pr-10">
-          <img src="@/assets/logo.png" alt="Logo" width="800" />
+          <img src="@/assets/logo.png" alt="Logo" width="470" />
         </div>
         <div
           style="
-            width: 700px;
-            height: 400px;
-            margin: 50px;
+            width: 540px;
+            height: 330px;
+            margin: 55px;
             background-color: #fafafa;
           "
-          class="border rounded-lg pa-12 elevation-9"
+          class="border rounded-lg pa-10 elevation-9"
         >
           <v-form>
-            <h3>E-mail</h3>
+            <h4>E-mail</h4>
             <v-responsive
               class="mx-auto elevation-4 border rounded-lg"
               max-width="auto"
-              style="height: 57px; margin-bottom: 30px"
+              style="height: 50px; margin-bottom: 30px"
             >
               <v-textarea type="email" required></v-textarea>
             </v-responsive>
-            <h3>Senha</h3>
+            <h4>Senha</h4>
             <v-responsive
               class="mx-auto elevation-4 border rounded-lg"
               max-width="auto"
-              style="height: 57px; margin-bottom: 20px"
+              style="height: 50px; margin-bottom: 20px"
             >
               <v-text-field type="password" required></v-text-field>
             </v-responsive>
@@ -35,15 +35,16 @@
             <v-row justify="end">
               <v-col class="text-right">
                 <a href="#" @click.prevent="forgotPassword">
-                  <h3>Esqueceu-se da sua senha?</h3></a
+                  <h4>Esqueceu sua senha?</h4></a
                 >
               </v-col>
             </v-row>
             <v-btn
-              style="height: 50px; width: 160px"
+              class="elevation-9"
+              style="height: 40px; width: 100px"
               color="primary"
               @click="login"
-              ><h2>Entrar</h2></v-btn
+              ><h3>Entrar</h3></v-btn
             >
           </v-form>
         </div>
