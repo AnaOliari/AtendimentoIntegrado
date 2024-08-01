@@ -14,6 +14,7 @@
           "
           class="border rounded-lg pa-10 elevation-9"
         >
+        
           <v-form>
             <h4>E-mail</h4>
             <v-responsive
@@ -52,7 +53,6 @@
     </v-main>
   </v-app>
 </template>
-
 <script>
 export default {
   data() {
